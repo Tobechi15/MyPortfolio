@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bfeb8c67f0.js" crossorigin="anonymous"></script>
-    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>Assets\Css\index.css">
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>landing/Assets/Css/vendor/font-awesome-4.7/css/font-awesome.min.css">
 </head>
@@ -136,140 +137,37 @@
         <br>
         <div class="gallery">
             <h1>Product Packages</h1><br>
-            <div class="chom">
-                <div class="mhead">
-                    <a class="a1">regular</a>
-                </div>
-                <div class="mench">
-                    <br>
-                    <div class="context">
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; 200$ - 3000$</section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; 30% commision </section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; monitored withdrawal</section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; get 20% return every month</section>
-                        <br><br>
-
-                    </div>
-                    <a class="btn primary" href="<?php echo ROOT_URL; ?>users/register">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-graph-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z" />
-                        </svg>
-                        Invest now
-                    </a>
-                </div>
-            </div>
-            <div class="chom">
-                <div class="mhead">
-                    <a class="a2">gold <i class="fa fa-money"></i></a>
-                </div>
-                <div class="mench">
-                    <br>
-                    <div class="context">
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; 2000$ - 10,000$</section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; 10% commision </section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; monitored withdrawal</section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; get 20% return every month</section>
-                        <br><br>
-
-                    </div>
-                    <a class="btn primary" href="<?php echo ROOT_URL; ?>users/register">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-graph-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z" />
-                        </svg>
-                        Invest now
-                    </a>
-                </div>
-            </div>
-            <div class="chom">
-                <div class="mhead">
-                    <a class="a3">premium <i class="fa fa-diamond"></i></a>
-                </div>
-                <div class="mench">
-                    <br>
-                    <div class="context">
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; 10,000$ - and above</section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; 5% commision </section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; free withdrawal</section>
-                        <br>
-                        <section><i style="color: rgb(3, 180, 112);" class="fa fa-check-circle"></i>&nbsp; get 20% return every month</section>
-                        <br><br>
-
-                    </div>
-                    <a class="btn primary" href="<?php echo ROOT_URL; ?>users/register">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-graph-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z" />
-                        </svg>
-                        Invest now
-                    </a>
-                </div>
-            </div>
-            <div class="container container--gallery">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <a class="photo-zoom" href="Moscow_025.jpg">
-                            <img src="Moscow_025.jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <a class="photo-zoom" href="saved_resource(3).jpg">
-                            <img src="saved_resource(3).jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <a class="photo-zoom" href="Moscow_003.jpg">
-                            <img src="Moscow_003.jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <a class="photo-zoom" href="Moscow_017.jpg">
-                            <img src="Moscow_017.jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <a class="photo-zoom" href="Moscow_005.jpg">
-                            <img src="Moscow_005.jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-10">
-                        <a class="photo-zoom" href="Moscow_010.jpg">
-                            <img src="Moscow_010.jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-2">
-                        <a class="photo-zoom" href="Moscow_014.jpg">
-                            <img src="Moscow_014.jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-5">
-                        <a class="photo-zoom" href="Moscow_012.jpg">
-                            <img src="Moscow_012.jpg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="col-sm-7">
-                        <a class="photo-zoom" href="Moscow_008.jpg">
-                            <img src="Moscow_008.jpg" alt="" />
-                        </a>
-                    </div>
-
+            <div class="containe">
+                <div class="galler">
+                    <img src="Assets\image\Porfolio-Img\192.168.137.1_LawSchool_landing_shares(iPhone X).png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\Dashboard - Google Chrome 6_3_2021 10_17_08 PM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\Dashboard - Google Chrome 6_3_2021 10_17_32 PM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\Dashboard - Google Chrome 6_3_2021 10_18_23 PM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\Finance - Google Chrome 9_30_2021 9_05_58 PM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\H & C confectionaries - Google Chrome 4_29_2020 11_08_44 AM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\H & C confectionaries - Google Chrome 5_9_2020 10_34_42 AM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\localhost_dashboard202_dexhtml(BlackBerry Z30).png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\i play football - Google Chrome 5_8_2021 9_44_57 AM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\shares - Google Chrome 5_8_2021 9_49_15 AM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\Hotel - Google Chrome 9_3_2021 9_20_20 PM.png" class="single-image" />
+                    <img src="Assets\image\Porfolio-Img\localhost_finance_landing_shares.png" class="single-image" />
 
                 </div>
             </div>
+
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+            <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+            <script src="function.js"></script>
         </div>
         <br><br><br>
         <div class="footer">
